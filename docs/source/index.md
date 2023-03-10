@@ -4,6 +4,6 @@
 :caption: 'Contents:'
 :maxdepth: 2
 
-md-cheatsheet
-sphinx-specific
+code/md-cheatsheet
+code/sphinx-specific
 ```

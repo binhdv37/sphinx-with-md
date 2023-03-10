@@ -38,7 +38,7 @@ Reference to specific section of a file {ref}`UML diagrams`
 
 ---
 
-## Sphinx directive:
+## Sphinx directive
 ### Toctree
 Use toctree (table of content tree) directive to setup table of content, usually used in home page
 
