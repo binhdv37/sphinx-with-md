@@ -30,3 +30,25 @@ exclude_patterns = []
 
 html_theme = 'furo'
 html_static_path = ['_static']
+
+# html_theme_options = {
+#     "light_css_variables": {
+#         "color-brand-primary": "red",
+#         "color-brand-content": "#CC3333",
+#         "color-admonition-background": "orange",
+#     },
+# }
+
+html_theme_options = {
+    "sidebar_hide_name": True,
+}
+
+html_theme_options = {
+    "navigation_with_keys": True,
+}
+
+# html_theme_options = {
+#     "top_of_page_button": "edit",
+# }
+
+html_logo = "_static/logo/logo-dark.png"
