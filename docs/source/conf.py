@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'md-sphinx'
+project = 'Sunteco sphinx'
 copyright = '2023, binhdv'
 author = 'binhdv'
 release = '1.0'
@@ -14,7 +14,11 @@ release = '1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = [
+    'myst_parser',
+    'sphinx.ext.autosectionlabel', # to link to other section in whole project using its title {ref}
+    'sphinxcontrib.mermaid' # to create diagram
+    ]
 
 templates_path = ['_templates']
 exclude_patterns = []

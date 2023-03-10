@@ -1,12 +1,9 @@
-# Welcome to md-sphinx's documentation!
-
-```{warning}
-This library is under heavy aaa
-```
+# Welcome to Sunteco sphinx's documentation!
 
 ```{toctree}
 :caption: 'Contents:'
 :maxdepth: 2
 
-usage
+md-cheatsheet
+sphinx-specific
 ```
