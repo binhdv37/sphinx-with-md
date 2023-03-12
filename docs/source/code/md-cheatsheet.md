@@ -65,10 +65,10 @@ Sample text here...
 ---
 
 ## Image
-![Image name here](../_static/image/anh1.jpg)
+![Image name here](../_static/image/logo/logo-dark.png)
 
 ```
-![Image name here](../_static/image/anh1.jpg)
+![Image name here](../_static/image/logo/logo-dark.png)
 ```
 
 ---

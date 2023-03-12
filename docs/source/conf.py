@@ -51,4 +51,4 @@ html_theme_options = {
 #     "top_of_page_button": "edit",
 # }
 
-html_logo = "_static/logo/logo-dark.png"
+html_logo = "_static/image/logo/logo-dark.png"

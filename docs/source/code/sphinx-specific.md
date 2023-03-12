@@ -21,10 +21,10 @@ Since Pythagoras, we know that {math}`a^2 + b^2 = c^2`.
 ---
 
 ### Link to doc
-Link to specific doc file using doc directive {doc}`md-cheatsheet`.
+Link to specific doc file using doc role {doc}`md-cheatsheet`.
 
 ```
-Link to specific doc file using doc directive {doc}`md-cheatsheet`.
+Link to specific doc file using doc role {doc}`md-cheatsheet`.
 ```
 
 ---
@@ -61,6 +61,25 @@ Use toctree (table of content tree) directive to setup table of content, usually
     ```{include} ../../../README.md
     :relative-images:
     ```
+
+### Figure
+```{figure} ../_static/image/logo/logo-dark.png
+:scale: 50 %
+:alt: map to buried treasure
+
+This is the caption of the figure (a simple paragraph).
+
+```
+
+    ```{figure} ../_static/image/logo/logo-dark.png
+    :scale: 50 %
+    :alt: map to buried treasure
+
+    This is the caption of the figure (a simple paragraph).
+
+    ```
+
+---
 
 ### Note
 ```{note}

@@ -17,7 +17,25 @@ Create new document file in `docs/source/code/` folder
 Add relative path to document file in `toctree` directive of  `index.html` file
 ```
 
-![Project structure](../_static/image/anh1.jpg)
+<!-- ![Project structure](../_static/image/development-tutorial/picture-1.png)
+
+![Result document structure](../_static/image/development-tutorial/picture-2.png) -->
+
+```{figure} ../_static/image/development-tutorial/picture-1.png
+:scale: 50 %
+:alt: project structure
+
+Project structure
+
+```
+
+```{figure} ../_static/image/development-tutorial/picture-2.png
+:scale: 50 %
+:alt: Output result
+
+Output result
+
+```
 
 4. Modify content of document
 
