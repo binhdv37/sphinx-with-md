@@ -4,7 +4,7 @@
 
 1. Clone project
 ```
-git clone http://github.com/xxx
+git clone https://github.com/binhdv37/sun-document.git
 ```
 
 2. Add new document file <br />
@@ -37,7 +37,9 @@ Output result
 
 ```
 
-4. Modify content of document
+4. Modify content of document file
+* [Stack edit](https://stackedit.io/app)
+* [Visual studio code](https://code.visualstudio.com)
 
 5. Request merge
 * Commit 
@@ -79,7 +81,7 @@ Run docs/build/html/index.html
 FROM sphinxdoc/sphinx
 
 WORKDIR /docs
-RUN pip install myst_parser furo
+RUN pip install myst_parser furo sphinxcontrib.mermaid
 ```
 
 2. Build image
@@ -93,6 +95,19 @@ docker run --rm -v /path/to/docs/folder:/docs mysphinx make html
 ```
 
 4. Run project
+```
+Run docs/build/html/index.html
+```
+
+---
+
+### Using pre-build docker image
+1. Build project
+```
+docker run --rm -v /path/to/docs/folder:/docs binhdv37/sphinx-docs-builder make html
+```
+
+2. Run project
 ```
 Run docs/build/html/index.html
 ```
