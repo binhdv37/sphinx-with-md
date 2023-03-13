@@ -81,7 +81,7 @@ Run docs/build/html/index.html
 FROM sphinxdoc/sphinx
 
 WORKDIR /docs
-RUN pip install myst_parser furo sphinxcontrib.mermaid
+RUN pip install myst_parser furo sphinxcontrib.mermaid sphinx_design
 ```
 
 2. Build image
@@ -91,7 +91,7 @@ docker build -t mysphinx .
 
 3. Build project
 ```
-docker run --rm -v /path/to/docs/folder:/docs mysphinx make html
+docker run --rm -v <path_to_docs_folder>:/docs mysphinx make html
 ```
 
 4. Run project
@@ -104,7 +104,7 @@ Run docs/build/html/index.html
 ### Using pre-build docker image
 1. Build project
 ```
-docker run --rm -v /path/to/docs/folder:/docs binhdv37/sphinx-docs-builder make html
+docker run --rm -v <path_to_docs_folder>:/docs binhdv37/sphinx-docs-builder make html
 ```
 
 2. Run project

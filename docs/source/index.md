@@ -7,4 +7,5 @@
 code/development-tutorial
 code/md-cheatsheet
 code/sphinx-specific
+code/reference
 ```
