@@ -9,19 +9,19 @@ git clone http://github.com/xxx
 
 2. Add new document file <br />
 ```
-Create new document file in `docs/source/code/` folder
+Create new document file in `docs/source/code/<menu-name>/page/<file-name>` folder
 ```
 
 3. Add document file to menu <br />
 ```
-Add relative path to document file in `toctree` directive of  `index.html` file
+Add relative path to document file in `toctree` directive of  `menu-1.md` file
 ```
 
 <!-- ![Project structure](../_static/image/development-tutorial/picture-1.png)
 
 ![Result document structure](../_static/image/development-tutorial/picture-2.png) -->
 
-```{figure} ../_static/image/development-tutorial/picture-1.png
+```{figure} ../_static/image/project-structure.png
 :scale: 50 %
 :alt: project structure
 
@@ -29,7 +29,7 @@ Project structure
 
 ```
 
-```{figure} ../_static/image/development-tutorial/picture-2.png
+```{figure} ../_static/image/result.png
 :scale: 50 %
 :alt: Output result
 
